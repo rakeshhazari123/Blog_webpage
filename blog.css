@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+#main{
+    height: 1160px;
+    width: 100%;
+    background-color:rgba(216, 230, 28, 0.514);
+}
+#bar{
+    position: absolute;
+    height:100px;
+    width: 98%;
+    background-color:#050801;
+    margin:1%;
+    box-shadow: 0px 0 5px honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px #050801;
+    
+}
+#bar a{
+   position: relative;
+   display: inline-block;
+   padding: 15px 30px;
+   margin:40px 0;
+   color: #03e9f4;
+   font-size: 24px;
+   text-decoration: none;
+   transition: 0.5s;
+   letter-spacing: 4px;
+   border: 2px solid #03e9f4;
+   border-radius: 20px;
+   animation: animation 6s ease-in-out infinite ;
+   animation-direction: alternate;
+   
+}
+@keyframes animation{
+    0%{border-color:#03e9f4 ; border-radius: 5px;}
+    40%{border-color:#ffff00;}
+    75%{border-color: #00ff00;}
+    100%{border-color: #ff0000;border-radius: 20px;}
+}
+#bar a:hover{
+    background: #03e9f4 ;
+    color: #050801;
+    box-shadow: 0 0 5px  #03e9f4,
+                0 0 25px  #03e9f4,
+                0 0 50px   #03e9f4,
+                0 0 800px #03e9f4
+                
+
+}
+#content1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 490px;
+    width: 63.7%;
+    background-color: #050801;
+    position: absolute;
+    top: 120px;
+    margin-left: 1%;
+    box-shadow: 0px 0px 2px #050801;
+    float: right;
+    color: white;
+    padding-left:16px;
+    padding-top: 10px;
+    
+}
+#content2{
+    height: 490px;
+    width: 63.7%;
+    background-color: #050801;
+    position: absolute;
+    top: 628px;
+    margin-left: 1%;
+    box-shadow: 0px 0px 2px #050801;
+    color: white;
+    padding-left:16px;
+    padding-top: 10px;
+    font-family:' Arial'
+    
+    
+}
+#about{
+    height: 400px;
+    width: 32.5%;
+    position: absolute;
+    top: 120px;
+    left: 66.5%;
+    background-color: #050801;
+    box-shadow: 0px 0px 2px #050801;
+    color: white;
+    
+    
+}
+#post{
+    height: 410px;
+    width: 32.5%;
+    position: absolute;
+    top: 520px;
+    left: 66.5%;
+    background-color: #050801;
+    box-shadow: 0px 0px 2px #050801;
+    margin-top: 8px;
+    color: white;
+    padding: 1px;
+    
+}
+#site{
+    height: 180px;
+    width: 32.5%;
+    position: absolute;
+    top: 928px;
+    left: 66.5%;
+    background-color: #050801;
+    box-shadow: 0px 0px 2px #050801;
+    margin-top: 20px;
+    color: white;
+    
+}
+#pic{
+   height:370px ;
+   width: 31%;
+   position: relative;
+   top: 560px;
+   left: 67.3%;
+   background-color: teal;
+   animation: anime 15s ease-in-out infinite ;
+   background-size: cover;
+   animation-direction: alternate;
+
+}
+@keyframes anime{
+   0%{background-image: url(2.jpg);}
+   20%{background-image: url(3.jpg);}
+   40%{background-image: url(4.jpg);}
+   60%{background-image: url(5.jpg);}
+   80%{background-image: url(6.jpg);}
+   100%{
+       background-image: url(4.jpg);
+   }
+}
+#content1 img{
+    height: 300px;
+    width: 90%;
+    padding-left: 15px;
+   
+}
+#content1 h5{
+    padding: 5px;
+}
+   
+#content2 img{
+    height: 300px;
+    width: 90%;
+    padding-left: 15px;
+}
+#content2 h5{
+    padding: 5px;
+}
+#about h2{
+    position: relative;
+    left: 35%;
+    width: 110px;
+    border-bottom: 2px solid red;
+}
+#about p{padding-left: 5px;}
+#site h3{
+    position: relative;
+    left: 35%;
+    width: 100px;
+    border-bottom: 2px solid red;
+}
+#site p{
+    padding: 5px;
+}
+#about img{
+    height: 200px;
+    width: 150px;
+    padding-left: 120px;
+}
+#content1 h2{
+    color:#fba729;
+}
+#content2 h2{
+    color:#fba729;
+}
+#about h2{
+    color:#fba729;
+}
+#site h3{
+    color:#fba729;
+}
+#post h3{
+    color:#fba729;
+    padding-left: 5px;
+}
+#content1 h5{
+    color: #FF0000;
+}
+#content2 h5{
+    color: #FF0000;
+}
+
+#copyright {
+    position: absolute;
+    color: #FF0000;
+    padding-left:8px;
+    margin-bottom:5px;
+    font-size: 20px;
+    top: 1130px;
+    left: 250px;
+    }
